@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Why QA Wolf 🤔</h1>
+      <h1>Why QA Wolf? 🤔</h1>
       <VideoPlayer src={videoUrl} />
     </div>
   );

@@ -16,5 +16,22 @@ body {
 }
 
 .video-player iframe {
+  width: 100%; /* Full width */
+  height: 50vh; /* Adjust height based on the viewport height */
   box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 768px) {
+  .video-player iframe {
+    height: 300px; /* Smaller height for smaller screens */
+  }
+
+  body {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .App {
+    padding: 10px;
+  }
 }
